@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Homepage</title>
+	<script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+	<script src="script.js"></script>
+	<link rel="stylesheet" type="text/css" href="styles.css"/>
+
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body onload="load()">
+	<div id="app" style="height: 100%; text-align: center;">
+		<div class="invert" style="border-bottom: 5px solid var(--c); padding: 20px; position: fixed; width: 100%; z-index: 2;">
+			<div id="profile"></div>
+			<h1 style="margin: 0; font-size: 40px; height: 50px">Dystopia181's Homepage</h1>
+		</div>
+		<div style="height: 110px"></div>
+		<div style="display: inline-block; text-align: left">
+			<img src="images/resource-starve.png" width="400"/><br>
+			<span style="font-size: 12px; color: var(--c2)">
+				Image taken from <a href="https://dystopia-user181.itch.io/cassiopeia" target="newtab"><i>Resource Starve</i></a>
+			</span>
+		</div>
+		<br><br>
+		<game-data v-for="game in games" :game="game"></game-data>
+		<div style="height: 50px"></div>
+	</div>
+</body>
+</html>
