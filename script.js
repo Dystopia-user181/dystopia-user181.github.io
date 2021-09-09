@@ -6,13 +6,13 @@ function load() {
 		data() { return {
 			show: false
 		}},
-		template: `<div style="margin: 0 50px">
+		template: `<div class="gamedata-div">
 			<div :class="{'game-prompt': true, active: show}" @click="show = !show;">
 				{{game.title}} &nbsp;<img src="images/arrow.png" width="25" class="arrow-img" :style="{
 					transform: 'rotate(' + (show ? 0 : 180) + 'deg) translateY(' + (show ? '-' : '') + '50%)',
 				}"/>
 			</div>
-			<div style="text-align: left; margin: 0 200px 0 10px;" v-if="show">
+			<div class="gamedata-content" v-if="show">
 				<br>
 				<span class="txtlarge">Links:</span>
 				<span v-for="(link, name) in game.links" class="txtlarge"><br>
@@ -35,7 +35,7 @@ function load() {
 				This was my first proper attempt at a project written in a text-based language. The result didn't turn out bad,
 				and actually I'd say it's pretty good in the game design sector. The code sucks though, it's barely readable for present me which is obstructing new updates.
 				<br><br>A full rewrite is planned in the future.<br><br>
-				<img src="images/growth-sim.png" width="700"/><br>
+				<img src="images/growth-sim.png" class="imglarge"/><br>
 				<span style="font-size: 12px;">
 					Image taken from <a href="https://dystopia-user181.user.io/Growth-sim-testing" target="newtab"><i>Plants of Instablity</i></a>
 				</span><br><br>`
@@ -51,7 +51,7 @@ function load() {
 				The Factoree is semi decent, and I'd say it's the best out of the 3.<br>
 				The Compact Tree was more of an experiment, but it does have some cool bits.<br>
 				Prestige tree reloaded is a parody of Jacorb's <a href="https://jacorb90.me/Prestige-Tree/">Prestige Tree</a>.<br><br>
-				<img src="images/the-factoree.png" width="400"/><br>
+				<img src="images/the-factoree.png" class="imgsmall"/><br>
 				<span style="font-size: 12px;">
 					Image taken from <a href="https://dystopia-user181.github.io/The-Modding-Tree" target="newtab"><i>The Factoree</i></a>
 				</span><br><br>`
@@ -78,7 +78,7 @@ function load() {
 				but I think I pulled this one off quite well.
 				<br><br>
 				A "spiritual successor" to <a href="https://yhvr.itch.io/cleansed" target="newtab">Cleansed</a>.<br><br>
-				<img src="images/resource-starve-2.png" width="600"/><br>
+				<img src="images/resource-starve-2.png" class="imglarge"/><br>
 				<span style="font-size: 12px;">
 					Image taken from <a href="https://dystopia-user181.itch.io/cassiopeia" target="newtab"><i>Resource Starve</i></a>
 				</span><br><br>`
@@ -91,7 +91,7 @@ function load() {
 					"Circle physics engine experiment": "https://dystopia-user181.github.io/circular/"
 				},
 				desc: `The title says it all.<br><br>
-				<img src="images/archipegalo.png" width="700"/><br>
+				<img src="images/archipegalo.png" class="imglarge"/><br>
 				<span style="font-size: 12px;">
 					Archipegalo generated using <a href="https://dystopia-user181.github.io/noise-experimentation" target="newtab"><i>Noise experiments</i></a>
 					</span><br><br>`
