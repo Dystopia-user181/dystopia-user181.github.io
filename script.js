@@ -93,7 +93,7 @@ function load() {
 				desc: `The title says it all.<br><br>
 				<img src="images/archipegalo.png" class="imglarge"/><br>
 				<span style="font-size: 12px;">
-					Archipegalo generated using <a href="https://dystopia-user181.github.io/noise-experimentation" target="newtab"><i>Noise experiments</i></a>
+					Archipelago generated using <a href="https://dystopia-user181.github.io/noise-experimentation" target="newtab"><i>Noise experiments</i></a>
 					</span><br><br>`
 			}]
 		}
