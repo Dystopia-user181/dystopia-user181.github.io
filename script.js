@@ -26,7 +26,19 @@ function load() {
 	app = new Vue({
 		el: '#app',
 		data: {
-			games: [{
+			games: [
+			{
+				title: "MAGNUM OPUS: The Alterhistorian's conquest",
+				links: {
+					"The Alterhistorian's Conquest": "https://dystopia-user181.itch.io/the-alterhistorians-conquest",
+				},
+				desc: `This is (arguably) my best shot at an incremental game yet. This game mostly revolves around elements and their interactions
+				with different machines, with the end goal currently being formulating the elixir of eternal life. Heavily inspired by another game
+				with a similar name, it's probably the largest scale and one of the still-active projects that I'm working on. It's also my first
+				attempt making a game using proper build tools. Would heavily recommend playing this first since it's much more polished than most
+				other games.<br><br>
+				<img src="images/alterhistorian.png" class="imglarge"/>`
+			}, {
 				title: "Plants of Instability",
 				links: {
 					"Plants of Instability": "https://dystopia-user181.github.io/Growth-sim-testing/"
