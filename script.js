@@ -22,11 +22,22 @@ function load() {
 				<span v-html="game.desc" style="color: var(--c2)"></span>
 			</div>
 		</div>`
-	})
+	});
 	app = new Vue({
 		el: '#app',
 		data: {
 			games: [
+			{
+				title: "Antimatter Dimensions",
+				links: {
+					"Antimatter Dimensions": "https://ivark.github.io/AntimatterDimensions/",
+				},
+				desc: `I was a tester (and later a developer) of the game Antimatter Dimensions, mainly helping to create and clean
+				up the user interface of later parts of the content. It was overall a rather rewarding experience which taught me how
+				to work as part of a development team. I also included a secret theme around the user interface of windows in the game-
+				see if you can find it!
+				<br><br>`
+			},
 			{
 				title: "MAGNUM OPUS: The Alterhistorian's conquest",
 				links: {
@@ -38,7 +49,8 @@ function load() {
 				attempt making a game using proper build tools. Would heavily recommend playing this first since it's much more polished than most
 				other games.<br><br>
 				<img src="images/alterhistorian.png" class="imglarge"/>`
-			}, {
+			},
+			{
 				title: "Plants of Instability",
 				links: {
 					"Plants of Instability": "https://dystopia-user181.github.io/Growth-sim-testing/"
@@ -51,7 +63,8 @@ function load() {
 				<span style="font-size: 12px;">
 					Image taken from <a href="https://dystopia-user181.user.io/Growth-sim-testing" target="newtab"><i>Plants of Instablity</i></a>
 				</span><br><br>`
-			}, {
+			},
+			{
 				title: "TMT mods",
 				links: {
 					"The Factoree": "https://dystopia-user181.github.io/The-Modding-Tree/",
@@ -67,7 +80,8 @@ function load() {
 				<span style="font-size: 12px;">
 					Image taken from <a href="https://dystopia-user181.github.io/The-Modding-Tree" target="newtab"><i>The Factoree</i></a>
 				</span><br><br>`
-			}, {
+			},
+			{
 				title: "Timelapse and Sequence",
 				links: {
 					"Timelapse and Sequence": "https://dystopia-user181.itch.io/consequence/"
@@ -79,26 +93,26 @@ function load() {
 				<span style="font-size: 12px;">
 					Image taken from <a href="https://dystopia-user181.itch.io/consequence" target="newtab"><i>Timelapse and Sequence</i></a>
 				</span><br><br>`
-			}, {
-				title: "Resource Starve (Cassiopeia)",
+			},
+			{
+				title: "Project Iridium / Resource Starve",
 				links: {
+					"Project Iridium": "https://dystopia-user181.itch.io/project-iridium",
 					"Resource Starve": "https://dystopia-user181.itch.io/cassiopeia/"
 				},
 				desc: `Another jam release, this time for an incremental jam with the theme "running out of".<br><br>
-				You play as a player that just so happens to look like a nuclear bomb, and you have to manage a variety of resources. I tried taking full advantage of the jam theme.
-				Personally this is one of my proudest releases, and it also explores grid mechanics in incrementals more thoroughly. I also like the graphics on this one, I'm not a graphics person
-				but I think I pulled this one off quite well.
-				<br><br>
 				A "spiritual successor" to <a href="https://yhvr.itch.io/cleansed" target="newtab">Cleansed</a>.<br><br>
+				Project Iridium represents a later attempt using a same engine. The game is themed around time and the bending of it.
+				<br><br>
 				<img src="images/resource-starve-2.png" class="imglarge"/><br>
 				<span style="font-size: 12px;">
 					Image taken from <a href="https://dystopia-user181.itch.io/cassiopeia" target="newtab"><i>Resource Starve</i></a>
 				</span><br><br>`
-			}, {
+			},
+			{
 				title: "Miscellaneous cool stuff",
 				links: {
-					"Perlin noise experiments": "https://dystopia-user181.github.io/noise-experimentation/",
-					"Image manipulation experiment": "https://dystopia-user181.github.io/Meme-Image-Editor/",
+					"Connecting pipes": "https://dystopia-user181.github.io/connect-pipes-polygonal/",
 					"Calculating pi": "https://dystopia-user181.github.io/Calculate-pi-nilakantha/",
 					"Circle physics engine experiment": "https://dystopia-user181.github.io/circular/"
 				},
