@@ -28,6 +28,16 @@ function load() {
 		data: {
 			games: [
 			{
+				title: "Classical Music",
+				links: {
+					"YouTube Channel": "https://www.youtube.com/@dystopia-user181",
+				},
+				desc: `Some time around mid-2022, I started becoming more and more interested in classical music- both new
+				things being written by contemporary composers and classics like those of Beethoven. The YouTube channel above
+				is where I put my own contributions to the genre (Or other related genres like ambient music).
+				<br><br>`
+			},
+			{
 				title: "Antimatter Dimensions",
 				links: {
 					"Antimatter Dimensions": "https://ivark.github.io/AntimatterDimensions/",
@@ -39,7 +49,7 @@ function load() {
 				<br><br>`
 			},
 			{
-				title: "MAGNUM OPUS: The Alterhistorian's conquest",
+				title: "The Alterhistorian's conquest",
 				links: {
 					"The Alterhistorian's Conquest": "https://dystopia-user181.itch.io/the-alterhistorians-conquest",
 				},
@@ -62,23 +72,6 @@ function load() {
 				<img src="images/growth-sim.png" class="imglarge"/><br>
 				<span style="font-size: 12px;">
 					Image taken from <a href="https://dystopia-user181.user.io/Growth-sim-testing" target="newtab"><i>Plants of Instablity</i></a>
-				</span><br><br>`
-			},
-			{
-				title: "TMT mods",
-				links: {
-					"The Factoree": "https://dystopia-user181.github.io/The-Modding-Tree/",
-					"The Compact Tree": "https://raw.githack.com/Dystopia-user181/The-Modding-Tree/The-Compact-Tree/index.html",
-					"Prestige Tree: Reloaded": "https://prestige-tree-reloaded.glitch.me/"
-				},
-				desc: `Around October 2020, an incremental game engine called "The Modding Tree" took off in popularity.<br><br>
-				I decided to try it for myself and these were the results.<br><br>
-				The Factoree is semi decent, and I'd say it's the best out of the 3.<br>
-				The Compact Tree was more of an experiment, but it does have some cool bits.<br>
-				Prestige tree reloaded is a parody of Jacorb's <a href="https://jacorb90.me/Prestige-Tree/">Prestige Tree</a>.<br><br>
-				<img src="images/the-factoree.png" class="imgsmall"/><br>
-				<span style="font-size: 12px;">
-					Image taken from <a href="https://dystopia-user181.github.io/The-Modding-Tree" target="newtab"><i>The Factoree</i></a>
 				</span><br><br>`
 			},
 			{
@@ -107,6 +100,23 @@ function load() {
 				<img src="images/resource-starve-2.png" class="imglarge"/><br>
 				<span style="font-size: 12px;">
 					Image taken from <a href="https://dystopia-user181.itch.io/cassiopeia" target="newtab"><i>Resource Starve</i></a>
+				</span><br><br>`
+			},
+			{
+				title: "TMT mods",
+				links: {
+					"The Factoree": "https://dystopia-user181.github.io/The-Modding-Tree/",
+					"The Compact Tree": "https://raw.githack.com/Dystopia-user181/The-Modding-Tree/The-Compact-Tree/index.html",
+					"Prestige Tree: Reloaded": "https://prestige-tree-reloaded.glitch.me/"
+				},
+				desc: `Around October 2020, an incremental game engine called "The Modding Tree" took off in popularity.<br><br>
+				I decided to try it for myself and these were the results.<br><br>
+				The Factoree is semi decent, and I'd say it's the best out of the 3.<br>
+				The Compact Tree was more of an experiment, but it does have some cool bits.<br>
+				Prestige tree reloaded is a parody of Jacorb's <a href="https://jacorb90.me/Prestige-Tree/">Prestige Tree</a>.<br><br>
+				<img src="images/the-factoree.png" class="imgsmall"/><br>
+				<span style="font-size: 12px;">
+					Image taken from <a href="https://dystopia-user181.github.io/The-Modding-Tree" target="newtab"><i>The Factoree</i></a>
 				</span><br><br>`
 			},
 			{
